@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main()
+{
+  int x,y,multiplicacao;
+  printf("\nEntre com o valor de x:");
+  scanf("%d",&x);
+  printf("\nEntre com o valor de y:");
+  scanf("%d",&y);
+  multiplicacao=x*y;
+  printf("\nResultado=%d\n",multiplicacao);
+  return 0;
+}
